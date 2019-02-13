@@ -5,15 +5,11 @@ import android.support.annotation.NonNull;
 import com.example.trainapp1fitsmeclone.Domain.Entities.AuthInfo;
 import com.example.trainapp1fitsmeclone.Domain.Entities.SignInInfo;
 
-interface IUserInfoRepository {
+public interface ISignInRepository {
 
     @NonNull
-    SignInInfo getSignInInfo();
-
-    void setSignInInfo(SignInInfo signInInfo);
+    AuthInfo register(@NonNull SignInInfo signInInfo);
 
     @NonNull
-    AuthInfo getAuthInfo();
-
-    void setAuthInfo(@NonNull AuthInfo authInfo);
+    AuthInfo authorize(@NonNull SignInInfo signInInfo);
 }
