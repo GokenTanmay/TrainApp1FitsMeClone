@@ -5,7 +5,7 @@ import android.support.annotation.NonNull;
 import com.example.trainapp1fitsmeclone.Domain.Entities.AuthInfo;
 import com.example.trainapp1fitsmeclone.Domain.Entities.SignInInfo;
 
-interface IUserInfoRepository {
+public interface IUserInfoRepository {
 
     @NonNull
     SignInInfo getSignInInfo();
