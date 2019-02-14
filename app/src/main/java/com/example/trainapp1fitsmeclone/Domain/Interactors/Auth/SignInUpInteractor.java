@@ -1,6 +1,6 @@
-package com.example.trainapp1fitsmeclone.Domain.Interactors.Auth;
+package com.example.trainapp1fitsmeclone.domain.interactors.auth;
 
-import com.example.trainapp1fitsmeclone.Domain.Entities.SignInInfo;
+import com.example.trainapp1fitsmeclone.domain.entities.SignInInfo;
 
 import io.reactivex.Completable;
 

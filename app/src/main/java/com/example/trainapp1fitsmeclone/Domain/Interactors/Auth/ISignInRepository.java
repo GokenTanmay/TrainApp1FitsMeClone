@@ -1,9 +1,9 @@
-package com.example.trainapp1fitsmeclone.Domain.Interactors.Auth;
+package com.example.trainapp1fitsmeclone.domain.interactors.auth;
 
 import android.support.annotation.NonNull;
 
-import com.example.trainapp1fitsmeclone.Domain.Entities.AuthInfo;
-import com.example.trainapp1fitsmeclone.Domain.Entities.SignInInfo;
+import com.example.trainapp1fitsmeclone.domain.entities.AuthInfo;
+import com.example.trainapp1fitsmeclone.domain.entities.SignInInfo;
 
 public interface ISignInRepository {
 

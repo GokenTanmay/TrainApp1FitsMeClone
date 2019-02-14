@@ -1,4 +1,4 @@
-package com.example.trainapp1fitsmeclone.Domain.Entities;
+package com.example.trainapp1fitsmeclone.domain.entities;
 
 public class SignInInfo {
     private String login;

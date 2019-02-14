@@ -1,4 +1,4 @@
-package com.example.trainapp1fitsmeclone.Presentation.presenter;
+package com.example.trainapp1fitsmeclone.presentation.presenter;
 
 import android.arch.lifecycle.ViewModel;
 

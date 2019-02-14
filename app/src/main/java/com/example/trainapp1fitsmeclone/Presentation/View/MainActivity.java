@@ -1,12 +1,12 @@
-package com.example.trainapp1fitsmeclone.Presentation.View;
+package com.example.trainapp1fitsmeclone.presentation.view;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.trainapp1fitsmeclone.App;
-import com.example.trainapp1fitsmeclone.Domain.Interactors.Auth.SignInUpInteractor;
-import com.example.trainapp1fitsmeclone.Presentation.presenter.MainPresenter;
+import com.example.trainapp1fitsmeclone.domain.interactors.auth.SignInUpInteractor;
+import com.example.trainapp1fitsmeclone.presentation.presenter.MainPresenter;
 import com.example.trainapp1fitsmeclone.R;
 
 import javax.inject.Inject;

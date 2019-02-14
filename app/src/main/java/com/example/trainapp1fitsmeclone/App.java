@@ -2,10 +2,10 @@ package com.example.trainapp1fitsmeclone;
 
 import android.app.Application;
 
-import com.example.trainapp1fitsmeclone.Domain.Interactors.Auth.ISignInRepository;
-import com.example.trainapp1fitsmeclone.Domain.Interactors.Auth.ISignInUpInteractor;
-import com.example.trainapp1fitsmeclone.Domain.Interactors.Auth.IUserInfoRepository;
-import com.example.trainapp1fitsmeclone.Domain.Interactors.Auth.SignInUpInteractor;
+import com.example.trainapp1fitsmeclone.domain.interactors.auth.ISignInRepository;
+import com.example.trainapp1fitsmeclone.domain.interactors.auth.ISignInUpInteractor;
+import com.example.trainapp1fitsmeclone.domain.interactors.auth.IUserInfoRepository;
+import com.example.trainapp1fitsmeclone.domain.interactors.auth.SignInUpInteractor;
 
 import timber.log.Timber;
 import toothpick.Scope;
